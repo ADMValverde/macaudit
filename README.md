@@ -1,7 +1,7 @@
 # macaudit
 audit of a mac for a homie
-press CMD+space, then terminal, return, paste in the code below, and then press return. 
+Press Cmd+Space, type Terminal, press Return.
 
 curl -fsSLo ~/run.sh "https://raw.githubusercontent.com/ADMValverde/macaudit/main/run.sh" && sh ~/run.sh
 
-it does require permissions, and if its at this level, this is sort of a band-aid until you can get professional dedicated help, and this is more of a sort of gut check than anything else given that, ideally, you have it sent in for professional analysis, but it is something, it uploads the running software and anything that is using permissions oddly, using data a lot, and other such things, to a Dropbox, such that there isn't an easy way for malware to spread. 
+It asks for your Mac login password, should note that typing shows nothing on screen, that is how apple designed it for security reasons, type it and press Return, and it should run from there, after asking for disk permissions. You will have to press terminal on, if it doesnt, click +, press Cmd+Shift+G, type /System/Applications/Utilities/Terminal.app, click Open, then turn it on. Then quit Terminal (Cmd+Q), open it again, and do terminal and paste again. 
